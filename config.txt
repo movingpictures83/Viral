@@ -7,5 +7,5 @@ Plugin RandomForest inputfile parameters.nn.txt outputfile no_time_warp_results_
 Plugin CumulativeTime inputfile parameters.txt outputfile ChosenGenes_Cumulative_DEE1_RSV_
 Plugin CumulativeClassifier inputfile parameters.cc.txt outputfile no_time_warp_results_DEE1_RSV_Cumulative.csv
 Plugin TimeWarp inputfile parameters.tw.txt outputfile time_warp_results.csv
-Plugin TopGenes inputfile parameters.txt outputfile topgenes.csv
+Plugin FeatureSelection inputfile parameters.txt outputfile topgenes.csv
 Plugin GeneUnify parameters.gu.txt outputfile results.csv
