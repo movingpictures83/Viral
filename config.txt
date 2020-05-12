@@ -1,0 +1,11 @@
+Prefix pipelines/Viral
+
+Plugin CubicSpline inputfile parameters.txt outputfile plots.csv
+Plugin PLSDA-Multiple inputfile parameters.txt outputfile ChosenGenes_
+Plugin NeuralNet inputfile parameters.nn.txt outputfile no_time_warp_results_h1n1.csv
+Plugin RandomForest inputfile parameters.nn.txt outputfile no_time_warp_results_50_thresh.csv
+Plugin CumulativeTime inputfile parameters.txt outputfile ChosenGenes_Cumulative_DEE1_RSV_
+Plugin CumulativeClassifier inputfile parameters.cc.txt outputfile no_time_warp_results_DEE1_RSV_Cumulative.csv
+Plugin TimeWarp inputfile parameters.tw.txt outputfile time_warp_results.csv
+Plugin TopGenes inputfile parameters.txt outputfile topgenes.csv
+Plugin GeneUnify parameters.gu.txt outputfile results.csv

@@ -1,0 +1,3 @@
+training	ViralChallenge_training_EXPRESSION_RMA.tsv
+clinical	ViralChallenge_training_CLINICAL.tsv
+prefix		ChosenGenes_Cumulative_
