@@ -1,4 +1,0 @@
-clinical	ViralChallenge_training_CLINICAL.tsv
-training	ViralChallenge_training_EXPRESSION_RMA.tsv
-files	DEE1_RSV_0_-24.csv	DEE2_H3N2_0_-24.csv	DEE3_H1N1_0_-24.csv	DEE4X_H1N1_0_-24.csv		DEE5_H3N2_0_-24.csv	RhinoDuke_0_-24.csv	RhinoUVA_0_-24.csv
-

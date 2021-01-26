@@ -1,11 +1,11 @@
 Prefix pipelines/Viral
 
-Plugin CubicSpline inputfile parameters.txt outputfile plots.csv
-Plugin PLSDA-Multiple inputfile parameters.txt outputfile ChosenGenes_
-Plugin NeuralNet inputfile parameters.nn.txt outputfile no_time_warp_results_h1n1.csv
-Plugin RandomForest inputfile parameters.nn.txt outputfile no_time_warp_results_50_thresh.csv
-Plugin CumulativeTime inputfile parameters.txt outputfile ChosenGenes_Cumulative_DEE1_RSV_
-Plugin CumulativeClassifier inputfile parameters.cc.txt outputfile no_time_warp_results_DEE1_RSV_Cumulative.csv
-Plugin TimeWarp inputfile parameters.tw.txt outputfile time_warp_results.csv
-Plugin FeatureSelection inputfile parameters.txt outputfile topgenes.csv
-Plugin GeneUnify parameters.gu.txt outputfile results.csv
+#Plugin CubicSpline inputfile parameters/parameters.spline.txt outputfile output/plots.csv
+#Plugin PLSDA-Multiple inputfile parameters/parameters.plsda.txt outputfile ChosenGenes/ChosenGenes_
+#Plugin NeuralNet inputfile parameters/parameters.nn.txt outputfile output/no_time_warp_results_h1n1.csv
+#Plugin RandomForest inputfile parameters/parameters.rf.txt outputfile NoTimeWarp/no_time_warp_results_50_thresh.csv
+#Plugin CumulativeTime inputfile parameters/parameters.ct.txt outputfile ChosenGenes/ChosenGenes_Cumulative_DEE1_RSV_
+#Plugin CumulativeClassifier inputfile parameters/parameters.cc.txt outputfile NoTimeWarp/no_time_warp_results_DEE1_RSV_Cumulative.csv
+#Plugin TimeWarp inputfile parameters/parameters.tw.txt outputfile TimeWarp/time_warp_results.csv
+#Plugin FeatureSelection inputfile parameters/parameters.fs.txt outputfile output/topgenes.csv
+Plugin GeneUnify inputfile parameters/parameters.gu.txt outputfile output/results.csv
