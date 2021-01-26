@@ -1,0 +1,6 @@
+training	ViralChallenge/ViralChallenge_training_EXPRESSION_RMA.tsv
+clinical	ViralChallenge/ViralChallenge_training_CLINICAL_renamed.tsv
+joinby	CEL
+id	STUDYID
+x	TIMEHOURS
+classcol	SYMPTOMATIC_SC2

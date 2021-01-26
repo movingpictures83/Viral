@@ -1,0 +1,11 @@
+training	ViralChallenge/ViralChallenge_training_EXPRESSION_RMA.tsv
+clinical	ViralChallenge/ViralChallenge_training_CLINICAL_renamed.tsv
+prefix		ChosenGenes/ChosenGenes_
+joinby	CEL
+target	H1N1
+threshold	0.0005
+id	STUDYID
+x	TIMEHOURS
+classcol        SYMPTOMATIC_SC2
+trainControl	repeatedcv
+train		rf

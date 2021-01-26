@@ -1,0 +1,5 @@
+clinical	pipelines/Viral/ViralChallenge/ViralChallenge_training_CLINICAL.tsv
+training	pipelines/Viral/ViralChallenge/ViralChallenge_training_EXPRESSION_RMA.tsv
+files	pipelines/Viral/DEE/DEE1_RSV_0_-24.csv	pipelines/Viral/DEE/DEE2_H3N2_0_-24.csv	pipelines/Viral/DEE/DEE3_H1N1_0_-24.csv	pipelines/Viral/DEE/DEE4X_H1N1_0_-24.csv		pipelines/Viral/DEE/DEE5_H3N2_0_-24.csv	pipelines/Viral/Rhino/RhinoDuke_0_-24.csv	pipelines/Viral/Rhino/RhinoUVA_0_-24.csv
+joinby	CEL
+target	SHEDDING_SC1

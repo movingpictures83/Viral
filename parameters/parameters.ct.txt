@@ -1,0 +1,9 @@
+training	ViralChallenge/ViralChallenge_training_EXPRESSION_RMA.tsv
+clinical	ViralChallenge/ViralChallenge_training_CLINICAL_renamed.tsv
+times	parameters/times.txt
+joinby	CEL
+orderby	SUBJECTID
+target	"DEE1 RSV"
+id	STUDYID
+x	TIMEHOURS
+classcol        SYMPTOMATIC_SC2
